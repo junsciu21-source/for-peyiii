@@ -615,7 +615,7 @@ function loadSpotifyPlaylist(playlistNumber) {
         },
         3: {
             // Ganti dengan playlist ketiga kamu
-            embedUrl: 'https://open.spotify.com/embed/playlist/2ittdGvMZFWgIGIHo7lMTf',
+            embedUrl: 'https://open.spotify.com/embed/playlist/2ittdGvMZFWgIGIHo7lMTf?utm_source=generator',
             name: 'Your Fav Songs :3',
             description: 'From Your Playlistt 🌟'
         }
@@ -1185,3 +1185,4 @@ function handleContinueNavigation() {
     }
 
 }
+
