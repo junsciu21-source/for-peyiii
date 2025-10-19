@@ -266,7 +266,7 @@ function skipTypewriter() {
         clearInterval(typewriterInterval);
         const messageContent = document.querySelector('.message-content');
         if (messageContent) {
-            const fullMessage = `Hawoo Peyii,<br><br>Happy Birthday!<br><br>Hari ini kkoo mauu kamu ngerasain semua hal positif dan keajaiban yang cuma bisa didapetin kalo kamu ada di dunia ini. Semoga segala keinginanmu tercapai, apalagi yang kocak-kocak dan gak biasa, karena kamu tuh unik banget dan beda dari yang lain :p! Kkoo selalu percaya kalau kamu bisa melewati semua tantangan dengan kekuatan dan semangat yang luar biasa.<br><br>Peyii bener-bener bikin hari-hari kko jadi lebih berarti dan penuh warna. Semoga di tahun yang baru ini, Peyii makin bahagia, makin sukses, dan tentunya makin cantik (walaupun udah cantik banget :b).<br><br>Ikan hiu makan tomat, ( Lanjut sesuai isi hati :b ) 💕`;
+            const fullMessage = `Hawoo Peyii,<br><br>Happy Birthday!<br><br>Hari ini kkoo mauu Peyiii ngerasain semua hal positif dan keajaiban yang cuma bisa didapetin kalo kamu ada di dunia ini. Semoga segala keinginanmu tercapai, dari yang gak biasa sampai yang luar biasa :3 , karena kamu tuh unik banget dan beda dari yang lain :p! Kkoo selalu percaya kalau Peyii bisa melewati semua tantangan dengan kekuatan dan semangat yang luar biasa.<br><br>Peyii bisa bikin hari-hari orang lain termaksud kko jadi lebih berarti dan penuh warna but again don't forget love yourself cause your important too :3. Semoga di tahun yang baru ini, Peyii makin bahagia, makin sukses, dan tentunya makin cantik (walaupun udah cantik banget :b ).<br><br>Ikan hiu makan tomat, ( Lanjut sesuai isi hati :b ) 💕`;
             messageContent.innerHTML = fullMessage;
             isTyping = false;
             messageContent.scrollTop = messageContent.scrollHeight;
@@ -1185,6 +1185,7 @@ function handleContinueNavigation() {
     }
 
 }
+
 
 
 
