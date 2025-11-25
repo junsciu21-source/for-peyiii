@@ -223,15 +223,15 @@ function startTypewriter() {
     const messageContent = document.querySelector('.message-content');
     if (!messageContent) return;
     
-    const fullMessage = `Hawoo Peyii,
+    const fullMessage = `Hawoooooo,
 
-Happy Birthday!
+Happy Birthday, Vevee!
+Hari ini kkoo cuma mau Vevee ngerasain semua hal positif dan semua keajaiban yang cuma bisa ada karena kamu ada di dunia ini. Semoga semua keinginan kamu tercapai yang biasa, yang gak biasa, sampe yang paling luar biasa :3. Karena Vevee itu unik banget, beda dari yang lain, dan kkoo selalu bangga sama kamu :p
 
-Hari ini kkoo mauu Peyiii ngerasain semua hal positif dan keajaiban yang cuma bisa Peyii dapetin kalo kamu ada di dunia ini. Semoga segala keinginannya tercapai, dari yang gak biasa sampai yang luar biasa :3 , karena kamu tuh unik banget dan beda dari yang lain :p! Kkoo selalu percaya kalau Peyii bisa melewati semua tantangan dengan kekuatan dan semangat yang luar biasa.
+Kkoo percaya Vevee bisa lewatin apa pun dengan kekuatan dan semangat kamu yang luar biasa. Kamu bikin hari-hari banyak orang —termasuk kkoo— jadi lebih berarti dan lebih berwarna. Tapi tetap, jangan lupa buat sayang sama diri sendiri ya, karena Vevee juga penting banget. :3
 
-Peyii bisa bikin hari-hari orang lain termaksud kko jadi lebih berarti dan penuh warna but again don't forget to love yourself cause you're important too :3. Semoga di tahun yang baru ini, Peyii makin bahagia, makin sukses, dan tentunya makin cantik (walaupun udah cantik banget :b ).
-
-Ikan hiu makan tomat, ( Lanjut sesuai isi hati :b ) 💕`;
+Semoga di tahun baru ini, Vevee makin bahagia, makin sukses, dan pastinya makin cantik (padahal udah cantik banget sih :b).
+Ikan hiu makan tomat… (lanjutin sesuai isi hati sendiri di sini :b) 💕`;
     
     // Clear content and start fresh
     messageContent.innerHTML = '';
@@ -266,7 +266,8 @@ function skipTypewriter() {
         clearInterval(typewriterInterval);
         const messageContent = document.querySelector('.message-content');
         if (messageContent) {
-            const fullMessage = `Hawoo Peyii,<br><br>Happy Birthday!<br><br>Hari ini kkoo mauu Peyiii ngerasain semua hal positif dan keajaiban yang cuma bisa peyii dapetin kalo kamu ada di dunia ini. Semoga segala keinginannya tercapai, dari yang gak biasa sampai yang luar biasa :3 , karena kamu tuh unik banget dan beda dari yang lain :p! Kkoo selalu percaya kalau Peyii bisa melewati semua tantangan dengan kekuatan dan semangat yang luar biasa.<br><br>Peyii bisa bikin hari-hari orang lain termaksud kko jadi lebih berarti dan penuh warna but again don't forget to love yourself cause you're important too :3. Semoga di tahun yang baru ini, Peyii makin bahagia, makin sukses, dan tentunya makin cantik (walaupun udah cantik banget :b ).<br><br>Ikan hiu makan tomat, ( Lanjut sesuai isi hati :b ) 💕`;
+            const fullMessage = `Hawoooooo,<br><br>Happy Birthday, Vevee!<br><br>Hari ini kkoo cuma mau Vevee ngerasain semua hal positif dan semua keajaiban yang cuma bisa ada karena kamu ada di dunia ini. Semoga semua keinginan kamu tercapai yang biasa, yang gak biasa, sampe yang paling luar biasa :3. Karena Vevee itu unik banget, beda dari yang lain, dan kkoo selalu bangga sama kamu :p<br><br>Kkoo percaya Vevee bisa lewatin apa pun dengan kekuatan dan semangat kamu yang luar biasa. Kamu bikin hari-hari banyak orang —termasuk kkoo— jadi lebih berarti dan lebih berwarna. Tapi tetap, jangan lupa buat sayang sama diri sendiri ya, karena Vevee juga penting banget. :3<br><br>Semoga di tahun baru ini, Vevee makin bahagia, makin sukses, dan pastinya makin cantik (padahal udah cantik banget sih :b).
+Ikan hiu makan tomat… (lanjutin sesuai isi hati sendiri di sini ) 💕`;
             messageContent.innerHTML = fullMessage;
             isTyping = false;
             messageContent.scrollTop = messageContent.scrollHeight;
@@ -1185,6 +1186,7 @@ function handleContinueNavigation() {
     }
 
 }
+
 
 
 
