@@ -331,8 +331,8 @@ function startPhotoShow() {
             image: './images/photo2.jpg'
         },
         {
-            text: 'Your first Appreciation To Me',
-            image: './images/photo3.jpg'
+            text: 'Prettiest Eyes 👀 ',
+            image: './images/photo7.jpg'
         },
         {
             text: 'My Favorite Smile eheh ❤️',
@@ -1186,6 +1186,7 @@ function handleContinueNavigation() {
     }
 
 }
+
 
 
 
