@@ -610,7 +610,7 @@ function loadSpotifyPlaylist(playlistNumber) {
         },
         2: {
             // Ganti dengan playlist kedua kamu
-            embedUrl: 'https://open.spotify.com/embed/playlist/3gPSenyxZMdB3A54HeEruz?si=6b4dec830d4f4a48',
+            embedUrl: 'https://open.spotify.com/embed/playlist/0EWU0KMcETCc4GWclCnbRT',
             name: 'Love Songs Collection',
             description: 'Gatau sih, biar agak romance sikit eheh ❤️'
         },
@@ -1186,6 +1186,7 @@ function handleContinueNavigation() {
     }
 
 }
+
 
 
 
